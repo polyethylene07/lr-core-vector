@@ -4,6 +4,7 @@
 
 #include <stddef.h>
 #include <stdint.h>
+#include <stdlib.h>
 
 /* data 指向缓冲区起点，end 指向最后一个元素的后一位，cap
  * 指向缓冲区末尾的后一位。 有效元素位于 [data, end)，剩余空间位于 [end, cap)。
